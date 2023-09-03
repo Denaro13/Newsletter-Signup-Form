@@ -9,7 +9,7 @@ const NewsLetter = () => {
   if (signUp) {
     return (
       <article className="success">
-        <img src={iconList} alt="" className="small-img" />
+        <img src={iconList} alt="icon" className="small-img" />
 
         <h2>Thanks for subscribing!</h2>
         <p>
@@ -32,7 +32,7 @@ const NewsLetter = () => {
   return (
     <article className="mobile-signup">
       <div className="img-container">
-        <img src={img} className="img" />
+        <img src={img} className="img" alt="illustration" />
       </div>
       <div className="text-container">
         <div className="info">
@@ -40,19 +40,19 @@ const NewsLetter = () => {
           <p>Join 60,000+ project managers receiving monthly updates on:</p>
           <p className="update">
             <span>
-              <img src={iconList} className="img" />
+              <img src={iconList} className="img" alt="icon" />
             </span>{" "}
             Product discovery and building what matters
           </p>
           <p className="update">
             <span>
-              <img src={iconList} className="img" />
+              <img src={iconList} className="img" alt="icon" />
             </span>{" "}
             Measuring to ensure updates are a success
           </p>
           <p className="update">
             <span>
-              <img src={iconList} className="img" />
+              <img src={iconList} className="img" alt="icon" />
             </span>{" "}
             And so much more!
           </p>

@@ -10,7 +10,7 @@ const DesktopContent = () => {
   if (signUp) {
     return (
       <article className="desktop-success">
-        <img src={iconList} alt="" className="small-img" />
+        <img src={iconList} alt="icon" className="small-img" />
 
         <h2>Thanks for subscribing!</h2>
         <p>
@@ -38,19 +38,19 @@ const DesktopContent = () => {
           <p>Join 60,000+ project managers receiving monthly updates on:</p>
           <p className="update">
             <span>
-              <img src={iconList} className="img" />
+              <img src={iconList} className="img" alt="icon" />
             </span>{" "}
             Product discovery and building what matters
           </p>
           <p className="update">
             <span>
-              <img src={iconList} className="img" />
+              <img src={iconList} className="img" alt="icon" />
             </span>{" "}
             Measuring to ensure updates are a success
           </p>
           <p className="update">
             <span>
-              <img src={iconList} className="img" />
+              <img src={iconList} className="img" alt="icon" />
             </span>{" "}
             And so much more!
           </p>
@@ -58,7 +58,7 @@ const DesktopContent = () => {
         <Form setSignUp={setSignUp} email={email} setEmail={setEmail} />
       </div>
 
-      <img src={img} className="img" />
+      <img src={img} className="img" alt="illustration" />
     </article>
   );
 };
